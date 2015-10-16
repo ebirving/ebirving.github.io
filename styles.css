@@ -1,6 +1,32 @@
-h1, h2 {
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300italic);
+
+html{
+  height:100%;
+}
+
+body {
+  background-color: #fd9924;
+  min-height:100%;
+  margin:0 auto;
   text-align: center;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+}
+
+h1 {
+  font-family: 'Amatic SC', Helvetica, Arial, sans-serif;
+  font-size: 6em;
+  font-weight: bold;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: white;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
 }
 
 img {
@@ -8,7 +34,6 @@ img {
   width: 20%;
 }
 
-#info-box {
-  margin-top: 20%;
-  position: relative;
+#festive {
+  text-decoration: line-through;
 }
