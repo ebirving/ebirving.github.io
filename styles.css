@@ -1,39 +1,29 @@
-@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
-@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300italic);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Cabin);
 
 html{
   height:100%;
 }
 
 body {
-  background-color: #fd9924;
+  background-color: #0b4d8c;
+  color: #eee;
   min-height:100%;
-  margin:0 auto;
+  margin: 0 auto;
   text-align: center;
-  display:flex;
-  flex-direction:row;
-  justify-content:center;
-  align-items:center;
+  display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
 }
 
 h1 {
-  font-family: 'Amatic SC', Helvetica, Arial, sans-serif;
+  font-family: 'Lobster', cursive; sans-serif;
   font-size: 6em;
-  font-weight: bold;
-  -webkit-text-stroke-width: .5px;
-  -webkit-text-stroke-color: white;
+  text-shadow: 0 0 12px #ddd;
 }
 
 h2 {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Cabin', sans-serif;
   font-size: 1.5em;
-}
-
-img {
-  margin: 0 auto;
-  width: 20%;
-}
-
-#festive {
-  text-decoration: line-through;
 }
