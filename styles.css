@@ -20,6 +20,11 @@ body {
 
 a {
   color: #528076;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6C5B4B;
 }
 
 h1 {
