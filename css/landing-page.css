@@ -1,0 +1,42 @@
+h1 {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.word-art {
+  font-size: 3.6rem;
+  line-height: 1.25;
+  letter-spacing: -.1rem;
+  font-weight: 300;
+}
+
+.word-art span {
+  transition: all 0.2s ease-in-out;
+}
+
+#one:hover { color: #FF4136; text-shadow: 0px 0px 5px #FF4136; } /*red*/
+#two:hover { color: #FF851B; text-shadow: 0px 0px 5px #FF851B;} /*orange*/
+#three:hover { color: #FFDC00; text-shadow: 0px 0px 5px #FFDC00;}  /*yellow*/
+#four:hover { color: #01FF70; text-shadow: 0px 0px 5px #01FF70;} /*lime*/
+#five:hover { color: #2ECC40; text-shadow: 0px 0px 5px #2ECC40;}  /*green*/
+#six:hover { color: #3D9970; text-shadow: 0px 0px 5px #3D9970;} /*olive*/
+#seven:hover { color: #39CCCC; text-shadow: 0px 0px 5px #39CCCC;} /*teal*/
+#eight:hover { color: #7FDBFF; text-shadow: 0px 0px 5px #7FDBFF;} /*aqua*/
+#nine:hover { color: #0074D9; text-shadow: 0px 0px 5px #0074D9;} /*blue*/
+#ten:hover { color: #000080; text-shadow: 0px 0px 5px #000080;} /*navy*/
+#eleven:hover { color: #B10DC9; text-shadow: 0px 0px 5px #B10DC9;} /*purple*/
+#twelve:hover { color: #85144b; text-shadow: 0px 0px 5px #85144b;} /*maroon*/
+#thirteen:hover { color: #F012BE; text-shadow: 0px 0px 5px #F012BE;} /*fuschia*/
+
+img[alt="Home"]{
+  height: 22px;
+  position: absolute;
+}
+
+img[alt="Home"]:hover{
+  border-width: 2px;
+}
+
+@media (min-width: 550px) {
+  .description { font-size: 4.2rem; }
+}

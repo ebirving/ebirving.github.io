@@ -1,0 +1,121 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0 0 30px;
+}
+
+footer {
+  color: #eee;
+  position: absolute;
+  bottom: 0;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.navbar {
+  display: block;
+  width: 100%;
+  height: 6.5rem;
+  background: #fff;
+  z-index: 99;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  text-align: right;
+  list-style-type: none;
+  margin-bottom: 100px;
+}
+
+.navbar-list {
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.navbar-item {
+  position: relative;
+  margin-bottom: 0;
+  display: inline-block;
+}
+
+.navbar-link {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .2rem;
+  margin-right: 35px;
+  text-decoration: none;
+  line-height: 6.5rem;
+  color: #222;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+}
+
+.nav-current {
+  font-weight: 800;
+}
+
+.email, .phone {
+  text-decoration: none;
+  color: #222;
+  text-wrap: normal;
+}
+
+.aside {
+  color: #ddd;
+  font-style: italic;
+}
+
+.home-icon {
+  position: absolute;
+  left: 35px;
+  top: 22px;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.introduction::before {
+  content: url("../images/arrow.png");
+  position:absolute;
+  left: -65px;
+  top: -5px;
+  transform: rotate(-125deg);
+}
+
+img {
+  max-width: 100%;
+}
+
+img[alt="Home"]{
+  height: 16px;
+  position: absolute;
+}
+
+img[alt="Home"]:hover{
+  border-bottom: 1px solid #0FA0CE;
+}
+
+@media(max-width: 550px){
+  .navbar {
+    height: auto;
+  }
+  .navbar-item {
+    display: block;
+    line-height: 1;
+  }
+  .breakpoint {
+    display: block;
+  }
+
+  .introduction::before {
+    left: 115px;
+    top: -30px;
+    transform: rotate(52deg);
+  }
+}
