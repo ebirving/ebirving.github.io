@@ -1,3 +1,6 @@
+h2 {
+  text-transform: uppercase;
+}
 .twelve {
   border-bottom: 1px solid #eee;
   height: 3.0rem;

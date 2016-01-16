@@ -105,17 +105,18 @@ img[alt="Home"]{
   position: absolute;
 }
 
-img[alt="Home"]:hover{
+img[alt="Home"]:hover, img[alt="Home"]:active{
   border-bottom: 1px solid #0FA0CE;
 }
 
 @media(max-width: 550px){
   .navbar {
     height: auto;
+    margin-bottom: 40px;
   }
   .navbar-item {
     display: block;
-    line-height: 1;
+    line-height: 10%;
   }
   .breakpoint {
     display: block;
