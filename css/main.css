@@ -16,6 +16,10 @@ footer {
   text-align: center;
 }
 
+footer a {
+  color: #eee;
+}
+
 .navbar {
   display: block;
   width: 100%;
