@@ -40,3 +40,18 @@ img[alt="Home"]:hover{
 @media (min-width: 550px) {
   .description { font-size: 4.2rem; }
 }
+@media (max-width: 550px) {
+  #one { color: #FF4136; text-shadow: 0px 0px 5px #FF4136; } /*red*/
+  #two { color: #FF851B; text-shadow: 0px 0px 5px #FF851B;} /*orange*/
+  #three { color: #FFDC00; text-shadow: 0px 0px 5px #FFDC00;}  /*yellow*/
+  #four { color: #01FF70; text-shadow: 0px 0px 5px #01FF70;} /*lime*/
+  #five { color: #2ECC40; text-shadow: 0px 0px 5px #2ECC40;}  /*green*/
+  #six { color: #3D9970; text-shadow: 0px 0px 5px #3D9970;} /*olive*/
+  #seven { color: #39CCCC; text-shadow: 0px 0px 5px #39CCCC;} /*teal*/
+  #eight { color: #7FDBFF; text-shadow: 0px 0px 5px #7FDBFF;} /*aqua*/
+  #nine { color: #0074D9; text-shadow: 0px 0px 5px #0074D9;} /*blue*/
+  #ten { color: #000080; text-shadow: 0px 0px 5px #000080;} /*navy*/
+  #eleven { color: #B10DC9; text-shadow: 0px 0px 5px #B10DC9;} /*purple*/
+  #twelve { color: #85144b; text-shadow: 0px 0px 5px #85144b;} /*maroon*/
+  #thirteen { color: #F012BE; text-shadow: 0px 0px 5px #F012BE;} /*fuschia*/
+}
