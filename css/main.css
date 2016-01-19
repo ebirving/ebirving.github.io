@@ -121,7 +121,6 @@ img[alt="Home"]:hover, img[alt="Home"]:active{
   .breakpoint {
     display: block;
   }
-
   .introduction::before {
     left: 115px;
     top: -30px;
